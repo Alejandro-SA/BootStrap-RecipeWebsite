@@ -13,64 +13,62 @@
 
 <body>
 
-
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-          aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="index.html">Recipe Website</a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-
-
-
-          </li>
-        </ul>
-
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a href="index.html">Inicio</a>
-          </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recetas
-              <span class="caret"></span>
-            </a>
-            <ul class="dropdown-menu">
-              <li>
-                <a href="recetas.html">Carnes</a>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+              aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">Recipe Website</a>
+          </div>
+    
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+    
+    
+    
               </li>
-              <li>
-                <a href="recetas.html">Ensaladas</a>
-              </li>
-              <li>
-                <a href="recetas.html">Postres</a>
-              </li>
-            
             </ul>
-          </li>
-          <li>
-            <a href="#">Contacto</a>
-          </li>
-          <li>
-            <a href="#">Sube Tu Receta</a>
-          </li>
-        </ul>
-      </div>
-      <!-- /.navbar-collapse -->
-    </div>
-    <!-- /.container-fluid -->
-  </nav>
-
+    
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="index.html">Inicio</a>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recetas
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a href="recetas.html">Carnes</a>
+                  </li>
+                  <li>
+                    <a href="recetas.html">Ensaladas</a>
+                  </li>
+                  <li>
+                    <a href="recetas.html">Postres</a>
+                  </li>
+                
+                </ul>
+              </li>
+              <li>
+                <a href="contacto.html">Contacto</a>
+              </li>
+              <li>
+                <a href="tuReceta.html">Sube Tu Receta</a>
+              </li>
+            </ul>
+          </div>
+          <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+      </nav>
 
 
   <div id="main-wrapper">
@@ -84,7 +82,7 @@
           <div class="row">
                 <div class="col-sm-6">
                         <div class="row">
-                                <div class="col-sm-12"><img src="im1.jpeg" id="t1-img">
+                                <div class="col-sm-12"><img src="im1.jpeg" id="t1-img" class="img-responsive center-block" >
                                 </div></div>
                          <div class="row">
                                  <div class="col-sm-12"><div id="urrecipe-text"><p>Tattooed leggings keffiyeh bespoke, brooklyn bushwick cliche bitters swag. Venmo adaptogen man bun try-hard selvage bitters 90's franzen copper mug stumptown cornhole photo booth cardigan taxidermy. Snackwave squid slow-carb pop-up, selfies master cleanse everyday carry bicycle rights seitan. Forage humblebrag literally, beard viral copper mug blog. Mumblecore aesthetic cray, hammock banjo actually locavore coloring book portland. Cray succulents activated charcoal chambray, iPhone portland craft beer keytar meh etsy humblebrag you probably haven't heard of them. </p></div>
@@ -93,27 +91,27 @@
               </div></div>
                 
                 <div class="col-sm-6">
-                        <form>
+                        <form >
 
                                 <label for="name"> Name</label>
-                                <input type="text" id="fname" name="firstname" placeholder="Your name...">
+                                <input type="text" class="form-control" id="fname" name="firstname" placeholder="Your name...">
                             
                                 <label for="email">E-mail</label>
-                                <input type="email" id="email" name="email" placeholder="Your e-mail..">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Your e-mail..">
                             
                                 <label for="telephone">Phone number</label>
-                                <input type="tel" id="phone" name="email" placeholder="Your phone number..">
+                                <input type="tel" class="form-control" id="phone" name="email" placeholder="Your phone number..">
                                
                             
                                 <label for="subject">Message</label>
-                                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                                <textarea id="subject" class="form-control" name="subject" placeholder="Write something.." style="height:200px"></textarea>
                             
 
                                 <label for="doc">Document</label>
-                                <input type="file" name="doc" accept=".doc">
-                                <label for="pic">Images</label>
-                                <input type="file" name="pic" accept="image/*">
-                                <input type="submit" value="Submit">
+                                <input type="file"  name="doc" accept=".doc">
+                                <label for="pic" >Images</label>
+                                <input type="file"  name="pic" accept="image/*">
+                                <input type="submit" class="btn btn-primary" value="Submit">
                               </form>
 
                 </div>

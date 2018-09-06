@@ -9,14 +9,16 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" media="screen" href="custom.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 </head>
 
-<body>
 
 
 
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container-fluid">
+  <nav class="navbar navbar-inverse  z-depth-2 navbar-fixed-top" style="background-color:#C88C40
+  ; border-color:#C88C40
+  " >
+    <div class="container-fluid " style="background-color:#C88C40; color: white    ">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
@@ -30,7 +32,7 @@
       </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="z-index: 1">
         <ul class="nav navbar-nav">
 
 
@@ -38,15 +40,15 @@
           </li>
         </ul>
 
-        <ul class="nav navbar-nav navbar-right">
+        <ul class="nav navbar-nav navbar-right" style="color: white" >
           <li>
             <a href="index.html">Inicio</a>
           </li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Recetas
+          <li class="dropdown" >
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="z-index: 1">Recetas
               <span class="caret"></span>
             </a>
-            <ul class="dropdown-menu">
+            <ul class="dropdown-menu" style="z-index: -100;">
               <li>
                 <a href="recetas.html">Carnes</a>
               </li>
@@ -79,99 +81,112 @@
       <div class="row">
         <div class="col-sm-4">
           <h2>Recipe 1</h2>
-          <div class="fancy">
-            <img src="index-images/recipe1.jpeg" class="recipeImg"> </div>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt iure modi, enim delectus in nemo?
-            Labore temporibus
-            maiores quo, minus nobis provident eligendi quae, magnam porro odit repellat reprehenderit doloribus?
-            Aperiam
-            fugit voluptatum, sint officia, dolore architecto saepe dolorum a asperiores aliquid eaque ad est, laborum
-            quia
-            delectus et nemo vel quibusdam cumque sed optio! Eveniet maiores deleniti ea rerum.</p>
-        </div>
+          <div class="thumbnail  z-depth-1">
+            <img src="index-images/recipe1.jpeg" class="img-rounded img-responsive"> 
+           <div class="caption">
+
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt iure modi, enim delectus in nemo?
+               Labore temporibus
+               maiores quo, minus nobis provident eligendi quae, magnam porro odit repellat reprehenderit doloribus?
+               Aperiam
+               fugit voluptatum, sint officia, dolore architecto saepe dolorum a asperiores aliquid eaque ad est, laborum
+               quia
+               delectus et nemo vel quibusdam cumque sed optio! Eveniet maiores deleniti ea rerum.</p>
+              </div>
+            </div>
+          </div>
 
         <div class="col-sm-4">
           <h2>Recipe 2</h2>
-          <div class="fancy">
-            <img src="index-images/recipe2.jpeg" class="recipeImg"> </div>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt iure modi, enim delectus in nemo?
-            Labore temporibus
-            maiores quo, minus nobis provident eligendi quae, magnam porro odit repellat reprehenderit doloribus?
-            Dolores
-            modi necessitatibus aliquam vitae adipisci quisquam vel debitis. Ipsa quas odit expedita a iste molestiae
-            enim,
-            voluptatibus harum eos excepturi quo ut illo inventore aperiam dolores sed assumenda repellendus</p>
+          <div class="thumbnail  z-depth-1">
+            <img src="index-images/recipe2.jpeg" class="img-rounded img-responsive">
+            <div class="caption">
+
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt iure modi, enim delectus in nemo?
+                Labore temporibus
+                maiores quo, minus nobis provident eligendi quae, magnam porro odit repellat reprehenderit doloribus?
+                Dolores
+                modi necessitatibus aliquam vitae adipisci quisquam vel debitis. Ipsa quas odit expedita a iste molestiae
+                enim,
+                voluptatibus harum eos excepturi quo ut illo inventore aperiam dolores sed assumenda repellendus</p>
+              </div>
+            </div>
         </div>
         <div class="col-sm-4">
           <h2>Recipe 3</h2>
-          <div class="fancy">
-            <img src="index-images/recipe3.jpeg" class="recipeImg"> </div>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt iure modi, enim delectus in nemo?
-            Labore temporibus
-            maiores quo, minus nobis provident eligendi quae, magnam porro odit repellat reprehenderit doloribus?
-            Dolores
-            modi necessitatibus aliquam vitae adipisci quisquam vel debitis. Ipsa quas odit expedita a iste molestiae
-            enim,
-            voluptatibus harum eos excepturi quo ut illo inventore aperiam dolores sed assumenda repellendus.</p>
-        </div>
+          <div class="thumbnail  z-depth-1">
+            <img src="index-images/recipe3.jpeg" class="img-responsive img-rounded"> 
+           <div class="caption">
+
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt iure modi, enim delectus in nemo?
+               Labore temporibus
+               maiores quo, minus nobis provident eligendi quae, magnam porro odit repellat reprehenderit doloribus?
+               Dolores
+               modi necessitatibus aliquam vitae adipisci quisquam vel debitis. Ipsa quas odit expedita a iste molestiae
+               enim,
+               voluptatibus harum eos excepturi quo ut illo inventore aperiam dolores sed assumenda repellendus.</p>
+              </div>
+            </div>
+          </div>
       </div>
-      <div class="row">
-        <div class="col-sm-6">
-          <div>
+      <div class="row" style=" display:flex; flex-wrap: wrap;">
+        <div class="col-sm-6" style="display: flex;
+        flex-direction: column;">
+          <div class="well  z-depth-1" style="height: 100%;background-color: #A85D33; color: white ">
+
             <div class="row">
-              <div class="col-sm-12">
-                <h2>About Us</h2>
-              </div>
+              <div class="col-sm-12 " > <h2>About Us</h2></div>
             </div>
-            <div class="row">
-              <div class="col-sm-6">
-                <img src="index-images/us.jpeg" style="width: 100%; border-radius: 15px"> </div>
-              <div class="col-sm-6">
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt iure modi, enim delectus in
-                  nemo? Labore
-                  temporibus maiores quo, minus nobis provident eligendi quae, magnam porro odit repellat reprehenderit
-                  doloribus?</p>
+            <div id="abt"class="row" style=" display: flex; height: calc(100% - 80px);">
+              <div class="col-xs-12 col-sm-7" style="display:flex; align-items: center"> <img src="index-images/us.jpeg" class="img-rounded img-responsive"> </div>
+              <div class="col-xs-12 col-sm-5"style="display: flex; align-items: center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt iure modi, enim delectus in
+                nemo? Labore.  Aperiam fugit voluptatum, sint officia, dolore architecto saepe dolorum a asperiores aliquid eaque ad est.
+                temporibus maiores quo, minus nobis provident eligendi quae?</div>
+                
               </div>
-            </div>
           </div>
-
-
-        </div>
-        <div class="col-sm-6">
-          <div>
-            <div class="row">
-              <div class="col-sm-12">
-                <h2>What we do</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-12">
-                <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt iure modi, enim delectus in
-                  nemo? Labore
-                  temporibus maiores quo, minus nobis provident eligendi quae, magnam porro odit repellat reprehenderit
-                  doloribus?
-                  Aperiam fugit voluptatum, sint officia, dolore architecto saepe dolorum a asperiores aliquid eaque ad
-                  est,
-                  laborum quia delectus et nemo vel quibusdam cumque sed optio! Eveniet maiores deleniti ea rerum. </p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-6">
-                <img src="index-images/us2.jpg" style="width: 100%; border-radius: 15px; ">
-              </div>
-              <div class="col-sm-6">
-                <img src="index-images/us3.jpg" style="width: 100%; border-radius: 15px;   ">
-              </div>
-            </div>
           </div>
-        </div>
+        
 
+          <div class="col-sm-6" style="display: flex;
+          flex-direction: column;" >
+              <div class="well  z-depth-1 " style="background-color: #A85D33; color:white">
+              <div class="row">
+                <div class="col-sm-12"  > <h2>What we do</h2>
+                </div>
+                  <div class="row">
+<div class="col-sm-12">
+  
+                    <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt iure modi, enim delectus in
+                      nemo? Labore
+                      temporibus maiores quo, minus nobis provident eligendi quae, magnam porro odit repellat reprehenderit
+                      doloribus?
+                      Aperiam fugit voluptatum, sint officia, dolore architecto saepe dolorum a asperiores aliquid eaque ad
+                      est,
+                      laborum quia delectus et nemo vel quibusdam cumque sed optio! Eveniet maiores deleniti ea rerum. </p>
+                    </div>
+                  </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-6"> <img src="index-images/us2.jpg" class="img-rounded img-responsive"> </div>
+                <div class="hidden-sm hidden-md hidden-lg" style="padding: 10px"></div>
+                <div class="col-sm-6"> <img src="index-images/us3.jpg" class="img-rounded img-responsive"></div>
+                
+              </div>
+              </div>
       </div>
     </div>
   </div>
+</div>
 
-  <div>
 
+  <div class="container-fluid" style="margin-top: 10px; background-color:#3A4653; color:white; padding-bottom: 10px;padding-top: 10px">
+<div class="row" style=" display: flex;
+align-items: center;">
+<div class="col-xs-4 col-sm-3" ><i class="fab fa-facebook-square glyph-foot"></i> <i class="fab fa-twitter-square glyph-foot"></i> <i class="fab fa-youtube-square glyph-foot" style="margin-right: 0px"></i></div>
+<div class="col-xs-6 col-sm-6"><div class="row"><div class="col-sm-6">Phone number:<br> 01 800 5555 444</div><div class="col-sm-6">Adress:<br> Calle del olvido</div></div></div>
+ <div class="col-xs-2 col-sm-3"></div>
+</div>
   </div>
   <!--javascript sources-->
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
